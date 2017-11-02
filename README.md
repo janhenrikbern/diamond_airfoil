@@ -5,7 +5,9 @@ Example output:
 ![Airfoil Plot Example](https://raw.githubusercontent.com/janhenrikbern/diamond_airfoil/master/example.png)
 
 ## System Requirements
-- Python 3.6
+- Python 3.
+
+**With**
 - Anaconda (for Python 3.6)
 
 **Or**
