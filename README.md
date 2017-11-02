@@ -1,4 +1,4 @@
-# diamond_airfoil
+# Diamond Airfoil Property Calculator
 Calculates and plots pressure distribution across an diamond shaped airfoil at specified free stream pressure and mach, wedge angle, and angle of attack. Furthermore, it saves the property changes in a .csv-file. 
 
 Example output:
