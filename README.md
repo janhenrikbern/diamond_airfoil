@@ -7,7 +7,8 @@ Example output:
 ## System Requirements
 - Python 3.6
 - Anaconda (for Python 3.6)
-Or
+
+**Or**
 - numpy
 - matplotlib
 - seaborn
@@ -18,12 +19,13 @@ In order for the program to run, `aerodynamics.py` and `diamond_airfoil.py` have
 
 ## How to use it
 The only script that needs to be called is `diamond_airfoil.py`. 
+
+`$ python3 diamond_airfoil.py 3 5 -aoa 6 -ipres 1.5`
+
 It's command line input arguments are: 
 * Mach number of the incoming flow. 
 * Half-wedge angle of the incoming flow in degrees. 
 * (Optional) Angle of attach of flow to airfoil in degrees. The default is 0 degrees.
 * (Optional) The freestream pressure of the incoming flow in atm. The default is 1 atm.  
-
-`$ python3 diamond_airfoil.py 3 5 -aoa 6 -ipres 1.5`
 
 For additional documentation use `-h`.
